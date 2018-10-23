@@ -1,0 +1,47 @@
+@import "../utils/utils.scss";
+
+.base-layout {
+  height: 100vh;
+
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+
+  .trigger:hover {
+    color: $bluehover;
+  }
+
+  .logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+  }
+
+}
+
+
+/*************************
+  BaseLayout
+*************************/
+
+.slider{
+  overflow-y: auto;
+}
+
+.base-header{
+  background: #fff;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.base_content{
+  margin: 24px 16px;
+  padding: 24px;
+  background: #fff;
+  overflow: initial;
+}

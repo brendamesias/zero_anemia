@@ -1,0 +1,13 @@
+@import "../utils/utils.scss";
+
+.home{
+
+  border: 1px solid black;
+
+  @include tablet {
+    border: 1px solid $color_success;
+  }
+  @include desktop {
+    border: 1px solid $color_cancel;
+  }
+}
